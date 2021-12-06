@@ -1,0 +1,26 @@
+.btn{
+    margin-top: 1%;
+    background-color: #D0D0D0;
+    height: 45px;
+}
+.btn button{
+    background-color: white;
+    border: none;
+    border-radius: 10%;
+    flex-wrap: wrap;
+    float: left;
+    margin-left: 25px;
+    margin-top: 5px;
+    height: 35px;
+    width: 80px;
+    cursor: pointer;
+}
+.btn button.active {
+    display: none;
+}
+.btn button.active ::after {
+    display: none;
+}
+.btn button.active ::before {
+    display: none;
+}
