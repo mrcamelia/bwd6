@@ -1,0 +1,41 @@
+.mid {
+    box-shadow: 0px 0px 4px black;
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    height: 200px;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 2%;
+}
+.mid p {
+    margin-top: 7.5%;
+    font-size: 1.5rem;
+}
+
+.btn{
+    margin-top: 1%;
+    background-color: #D0D0D0;
+    height: 45px;
+}
+.btn button{
+    background-color: white;
+    border: none;
+    border-radius: 10%;
+    flex-wrap: wrap;
+    float: left;
+    margin-left: 25px;
+    margin-top: 5px;
+    height: 35px;
+    width: 80px;
+    cursor: pointer;
+}
+.btn button.active {
+    display: none;
+}
+.btn button.active ::after {
+    display: none;
+}
+.btn button.active ::before {
+    display: none;
+}
